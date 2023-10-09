@@ -1,0 +1,41 @@
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/tpch_1g/nation.tbl' 
+INTO TABLE NATION 
+FIELDS TERMINATED BY '|'
+LINES TERMINATED BY '\n';
+
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/tpch_1g/region.tbl' 
+INTO TABLE REGION 
+FIELDS TERMINATED BY '|'
+LINES TERMINATED BY '\n';
+
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/tpch_1g/part.tbl' 
+INTO TABLE PART 
+FIELDS TERMINATED BY '|'
+LINES TERMINATED BY '\n';
+
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/tpch_1g/supplier.tbl' 
+INTO TABLE SUPPLIER 
+FIELDS TERMINATED BY '|'
+LINES TERMINATED BY '\n';
+
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/tpch_1g/partsupp.tbl' 
+INTO TABLE PARTSUPP 
+FIELDS TERMINATED BY '|'
+LINES TERMINATED BY '\n';
+
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/tpch_1g/customer.tbl' 
+INTO TABLE CUSTOMER 
+FIELDS TERMINATED BY '|'
+LINES TERMINATED BY '\n';
+
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/tpch_1g/orders.tbl' 
+INTO TABLE ORDERS
+FIELDS TERMINATED BY '|'
+LINES TERMINATED BY '\n';
+
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/tpch_1g/lineitem.tbl' 
+INTO TABLE LINEITEM
+FIELDS TERMINATED BY '|'
+LINES TERMINATED BY '\n';
+
+
